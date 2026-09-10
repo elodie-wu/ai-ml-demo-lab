@@ -1,0 +1,7 @@
+Seed: 2
+Fitness (RMSE): 1.430161883847
+Program size: 33
+Program depth: 8
+
+Expression:
+(((sin((cos((sin(x) + 4.963601)) - cos(pdiv(-0.155049, x)))) - pdiv(4.005856, 4.748798)) - (cos((sin(cos((x + 4.963601))) + 4.963601)) * x)) - (x - (sin(x) + 4.963601)))

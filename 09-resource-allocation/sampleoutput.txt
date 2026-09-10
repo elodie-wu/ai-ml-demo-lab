@@ -1,0 +1,64 @@
+  Containers: [25, 2, 45, 10, 3, 28, 5, 1]
+  VM types:   [('V1', 10), ('V2', 30), ('V3', 50), ('V4', 70)]
+  PM capacity: 60
+
+=================================================================
+  Question 1 — FF&BF/FF Heuristic
+=================================================================
+[first_fit_heuristic]Valid VM types: [('V1', 10), ('V2', 30), ('V3', 50)]
+[first_fit_heuristic]Processing containers: 1, size=25
+[first_fit_heuristic]Processing containers: 2, size=2
+[first_fit_heuristic]Processing containers: 3, size=45
+[first_fit_heuristic]Processing containers: 4, size=10
+[first_fit_heuristic]Processing containers: 5, size=3
+[first_fit_heuristic]Processing containers: 6, size=28
+[first_fit_heuristic]Processing containers: 7, size=5
+[first_fit_heuristic]Processing containers: 8, size=1
+[first_fit_heuristic]Processing vms: V2, vcap=30,used=30
+[first_fit_heuristic]Processing vms: V3, vcap=50,used=50
+[first_fit_heuristic]Processing vms: V1, vcap=10,used=10
+[first_fit_heuristic]Processing vms: V2, vcap=30,used=29
+
+Level 1:
+    v1: (V2, Cap=30)  [c1:25, c2:2, c5:3]
+    v2: (V3, Cap=50)  [c3:45, c7:5]
+    v3: (V1, Cap=10)  [c4:10]
+    v4: (V2, Cap=30)  [c6:28, c8:1]
+    ==> Total VMs used: 4
+
+Level 2:
+    p1: [used=40/60]  (V2, Cap=30)[c1:25 + c2:2 + c5:3], (V1, Cap=10)[c4:10]
+    p2: [used=50/60]  (V3, Cap=50)[c3:45 + c7:5]
+    p3: [used=30/60]  (V2, Cap=30)[c6:28 + c8:1]
+    ==> Total PMs used: 3
+    ==> Containers allocated: 8
+
+=================================================================
+  Question 1 — BF&BF/BF Heuristic
+=================================================================
+[best_fit_heuristic]Valid VM types: [('V1', 10), ('V2', 30), ('V3', 50)]
+[best_fit_heuristic]Processing containers: 1, size=25
+[best_fit_heuristic]Processing containers: 2, size=2
+[best_fit_heuristic]Processing containers: 3, size=45
+[best_fit_heuristic]Processing containers: 4, size=10
+[best_fit_heuristic]Processing containers: 5, size=3
+[best_fit_heuristic]Processing containers: 6, size=28
+[best_fit_heuristic]Processing containers: 7, size=5
+[best_fit_heuristic]Processing containers: 8, size=1
+[best_fit_heuristic]Processing vms: V2, vcap=30,used=30
+[best_fit_heuristic]Processing vms: V3, vcap=50,used=50
+[best_fit_heuristic]Processing vms: V1, vcap=10,used=10
+[best_fit_heuristic]Processing vms: V2, vcap=30,used=29
+
+Level 1:
+    v1: (V2, Cap=30)  [c1:25, c2:2, c5:3]
+    v2: (V3, Cap=50)  [c3:45, c7:5]
+    v3: (V1, Cap=10)  [c4:10]
+    v4: (V2, Cap=30)  [c6:28, c8:1]
+    ==> Total VMs used: 4
+
+Level 2:
+    p1: [used=60/60]  (V2, Cap=30)[c1:25 + c2:2 + c5:3], (V2, Cap=30)[c6:28 + c8:1]
+    p2: [used=60/60]  (V3, Cap=50)[c3:45 + c7:5], (V1, Cap=10)[c4:10]
+    ==> Total PMs used: 2
+    ==> Containers allocated: 8

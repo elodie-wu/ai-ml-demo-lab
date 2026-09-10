@@ -1,0 +1,101 @@
+feature 3 (IG: 0.9044, Entropy: 0.9044)
+-- feature 3 == 0 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 1 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 2 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 3 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 4 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 5 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 6 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 7 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 8 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 9 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 10 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 11 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 12 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 13 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 14 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 15 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 16 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 17 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 18 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 19 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 20 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 21 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 22 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 23 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 24 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 25 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 26 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 27 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 28 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 29 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 30 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 31 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 32 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 33 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 34 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 35 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 36 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 37 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 38 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 39 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 40 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 41 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 42 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 43 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 44 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 45 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 46 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 47 --
+    leaf {0: 1} -> class 0
+-- feature 3 == 48 --
+    leaf {1: 1} -> class 1
+-- feature 3 == 49 --
+    leaf {0: 1} -> class 0
