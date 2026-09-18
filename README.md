@@ -1,45 +1,45 @@
-# AI/ML Demo Lab
+# 🧠 AI/ML Demo Lab
 
 A collection of small, self-contained implementations and experiments covering Artificial Intelligence, Machine Learning, Deep Learning, Evolutionary Computation, and Optimisation.
 
 The repository focuses on understanding how algorithms work through practical implementations, comparisons, experiments, and visualisations rather than only using high-level APIs.
 
-## Projects
+## 📚 Projects
 
-| #   | Project                                                               | Topics                                                                 |
-| --- | --------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 01  | [Decision Tree from Scratch](./01-decision-tree-from-scratch)         | Entropy, information gain, multiway splits                             |
-| 02  | [Classification Benchmark](./02-classification-benchmark)             | KNN, Decision Tree, Random Forest, AdaBoost, PCA, feature selection    |
-| 03  | [Clustering Comparison](./03-clustering-comparison)                   | K-means, DBSCAN                                                        |
-| 04  | [Anomaly Detection](./04-anomaly-detection)                           | Isolation Forest, Local Outlier Factor                                 |
-| 05  | [Perceptron vs MLP](./05-perceptron-vs-mlp)                           | Perceptron, MLP, activation functions                                  |
-| 06  | [GA Knapsack](./06-ga-knapsack)                                       | Genetic Algorithm, selection, crossover, mutation, constraint handling |
-| 07  | [Evolutionary Feature Selection](./07-evolutionary-feature-selection) | Filter GA, Wrapper GA, NSGA-II                                         |
-| 08  | [GP Symbolic Regression](./08-gp-symbolic-regression)                 | Genetic Programming, expression trees, symbolic regression             |
-| 09  | [Resource Allocation](./09-resource-allocation)                       | First Fit, Best Fit, VM/PM allocation                                  |
-| 10  | [Dispatching Rules](./10-dispatching-rules)                           | FCFS, SPT, EDD, job scheduling                                         |
+| # | Project | Topics |
+| --- | --- | --- |
+| 01 | [Decision Tree from Scratch](./01-decision-tree-from-scratch) | Entropy, information gain, multiway splits |
+| 02 | [Classification Benchmark](./02-classification-benchmark) | KNN, Decision Tree, Random Forest, AdaBoost, PCA, feature selection |
+| 03 | [Clustering Comparison](./03-clustering-comparison) | K-means, DBSCAN |
+| 04 | [Anomaly Detection](./04-anomaly-detection) | Isolation Forest, Local Outlier Factor |
+| 05 | [Perceptron vs MLP](./05-perceptron-vs-mlp) | Perceptron, MLP, activation functions |
+| 06 | [GA Knapsack](./06-ga-knapsack) | Genetic Algorithm, selection, crossover, mutation, constraint handling |
+| 07 | [Evolutionary Feature Selection](./07-evolutionary-feature-selection) | Filter GA, Wrapper GA, NSGA-II |
+| 08 | [GP Symbolic Regression](./08-gp-symbolic-regression) | Genetic Programming, expression trees, symbolic regression |
+| 09 | [Resource Allocation](./09-resource-allocation) | First Fit, Best Fit, VM/PM allocation |
+| 10 | [Dispatching Rules](./10-dispatching-rules) | FCFS, SPT, EDD, job scheduling |
 
 Each completed project contains its own README with implementation details, experiment settings, and instructions.
 
-## Planned Roadmap
+## 🗺️ Planned Roadmap
 
 Future demos will primarily use one main Jupyter Notebook per topic.
 
-| #   | Demo                                 | Topics                                                                  |
-| --- | ------------------------------------ | ----------------------------------------------------------------------- |
-| 11  | CNN Basics                           | Convolution, filters, activation functions, pooling, feature maps       |
-| 12  | Autoencoder & VAE                    | Autoencoders, latent representations, reparameterisation, KL divergence |
-| 13  | Generative Adversarial Networks      | GAN, DCGAN, conditional GANs, Pix2Pix, CycleGAN                         |
-| 14  | Graph Search                         | BFS, DFS, graph traversal                                               |
-| 15  | Adaptive Machine Learning            | Concept drift, stream learning, continual learning                      |
-| 16  | Continuous Evolutionary Optimisation | EP, Fast EP, Evolution Strategies, Differential Evolution               |
-| 17  | Ant Colony TSP                       | Ant Colony Optimisation, pheromone, evaporation, TSP                    |
-| 18  | Particle Swarm Optimisation          | Particle movement, personal best, global best, swarm behaviour          |
-| 19  | Estimation of Distribution           | UMDA, PBIL, cGA, probabilistic optimisation                             |
+| # | Demo | Topics |
+| --- | --- | --- |
+| 11 | CNN Basics | Convolution, filters, activation functions, pooling, feature maps |
+| 12 | Autoencoder & VAE | Autoencoders, latent representations, reparameterisation, KL divergence |
+| 13 | Generative Adversarial Networks | GAN, DCGAN, conditional GANs, Pix2Pix, CycleGAN |
+| 14 | Graph Search | BFS, DFS, graph traversal |
+| 15 | Adaptive Machine Learning | Concept drift, stream learning, continual learning |
+| 16 | Continuous Evolutionary Optimisation | EP, Fast EP, Evolution Strategies, Differential Evolution |
+| 17 | Ant Colony TSP | Ant Colony Optimisation, pheromone, evaporation, TSP |
+| 18 | Particle Swarm Optimisation | Particle movement, personal best, global best, swarm behaviour |
+| 19 | Estimation of Distribution | UMDA, PBIL, cGA, probabilistic optimisation |
 
-## Topics Covered
+## 🧩 Topics Covered
 
-### Machine Learning
+### 📊 Machine Learning
 
 - Classification
 - Clustering
@@ -49,7 +49,7 @@ Future demos will primarily use one main Jupyter Notebook per topic.
 - Neural networks
 - Model evaluation
 
-### Deep Learning
+### 🖼️ Deep Learning
 
 - Perceptrons and multilayer perceptrons
 - Convolutional Neural Networks
@@ -58,7 +58,7 @@ Future demos will primarily use one main Jupyter Notebook per topic.
 - Generative Adversarial Networks
 - Image generation and translation
 
-### Evolutionary Computation
+### 🧬 Evolutionary Computation
 
 - Genetic Algorithms
 - Genetic Programming
@@ -68,19 +68,19 @@ Future demos will primarily use one main Jupyter Notebook per topic.
 - Evolutionary feature selection
 - Estimation of Distribution Algorithms
 
-### Multi-Objective Optimisation
+### 🎯 Multi-Objective Optimisation
 
 - Pareto dominance
 - Pareto fronts
 - NSGA-II
 - Feature selection with conflicting objectives
 
-### Swarm Intelligence
+### 🐜 Swarm Intelligence
 
 - Ant Colony Optimisation
 - Particle Swarm Optimisation
 
-### Search, Optimisation and Scheduling
+### 🔍 Search, Optimisation and Scheduling
 
 - Graph search
 - Knapsack optimisation
@@ -88,13 +88,13 @@ Future demos will primarily use one main Jupyter Notebook per topic.
 - Job scheduling
 - Dispatching rules
 
-### Adaptive Machine Learning
+### 🔄 Adaptive Machine Learning
 
 - Concept drift
 - Stream learning
 - Continual learning
 
-## Notebook Style
+## 📓 Notebook Style
 
 Planned notebook-based demos are designed to remain self-contained.
 
@@ -112,7 +112,7 @@ A typical notebook follows this structure:
 
 The goal is to make each demo easy to follow while keeping the implementation focused on the core algorithmic ideas.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - NumPy
@@ -126,7 +126,7 @@ Additional libraries may be introduced for individual experiments.
 
 Some algorithms are implemented from scratch to explore their internal mechanics, while others use established libraries for experimentation and comparison.
 
-## Setup
+## 🚀 Setup
 
 Clone the repository:
 
@@ -149,7 +149,7 @@ jupyter notebook
 
 or open the repository directly in VS Code with the Jupyter extension.
 
-## Run
+## ▶️ Run
 
 Each demo can be run independently.
 
@@ -171,7 +171,7 @@ Notebook-based demos can be opened and executed from top to bottom.
 
 See the README inside each completed project directory for specific instructions.
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 `⭐` marks higher-priority planned work.
 
@@ -202,7 +202,7 @@ ai-ml-demo-lab/
 │   └── autoencoder_vae.ipynb                   # TODO ⭐
 │
 ├── 13-generative-adversarial-networks/
-│   └── generative_adversarial_networks.ipynb  # TODO ⭐
+│   └── generative_adversarial_networks.ipynb   # TODO ⭐
 │
 ├── 14-graph-search-bfs-dfs/
 │   └── graph_search_bfs_dfs.ipynb              # TODO ⭐
@@ -227,7 +227,7 @@ ai-ml-demo-lab/
 └── requirements.txt
 ```
 
-## Purpose
+## 🎯 Purpose
 
 This repository serves as a practical AI/ML learning lab and portfolio of algorithm implementations.
 
